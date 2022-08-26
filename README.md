@@ -1,50 +1,45 @@
 # Pix4Point
-Official Implementation for paper `Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding`
-![TEASER](docImages/teaser.png)
-[arXiv](todo:arxivlink) | todo:arxivlink
-## Setup environment
-git clone this repository and install requirements:
+Webpage for paper `Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding`
+
+### [arXiv](https://arxiv.org/abs/2208.12259) | [code](https://github.com/guochengqian/PointNeXt)
+*by [Guocheng Qian](https://www.gcqian.com/), [Xingdi Zhang](https://cindy-xdzhang.github.io/), [Abdullah Hamdi](https://github.com/ajhamdi), [Bernard Ghanem](https://www.bernardghanem.com/)*
+
+
+![TEASER](misc/teaser.png)
+
+**TL;DR:** We formulate a pipeline dubbed Pix4Point that allows harnessing pretrained
+Transformers in the image domain to improve downstream point cloud tasks. 
+
+
+**Abastract**: 
+Pure Transformer models have achieved impressive success in natural language processing and computer vision. However, one limitation with Transformers is their need for large training data. In the realm of 3D point clouds, the availability of large datasets is a challenge, which exacerbates the issue of training Transformers for 3D tasks. In this work, we empirically study and investigate the effect of utilizing knowledge from a large number of images for point cloud understanding. We formulate a pipeline dubbed \textit{Pix4Point} that allows harnessing pretrained Transformers in the image domain to improve downstream point cloud tasks. This is achieved by a modality-agnostic pure Transformer backbone with the help of tokenizer and decoder layers specialized in the 3D domain. Using image-pretrained Transformers, we observe significant performance gains of Pix4Point on the tasks of 3D point cloud classification, part segmentation, and semantic segmentation on ScanObjectNN, ShapeNetPart, and S3DIS benchmarks, respectively. Our code and models are available at [PointNeXt repo](https://github.com/guochengqian/pointnext). 
+
+![vis](misc/s3dis_result.png)
+![vis](misc/training_curves.png)
+![vis](misc/s3dis_vis.png)
+
+# News
+-  :pushpin:  [Bernard Ghanem](https://www.bernardghanem.com/) is hiring visiting students. Monthly salary is paid with free housing. Contact Guocheng if interested: guocheng.qian@kaust.edu.sa
+-  :pushpin:  Code will be released soon in the [PointNeXt repo](https://github.com/guochengqian/pointnext). 
+
+
+## Pretraining
+Refer to DeiT repo.
+
+
+## Finetuning in S3DIS
 ```
-git clone git@github.com:guochengqian/Pix4Point.git
-cd Pix4point
-bash install.sh
+python examples/segmentation/main.py cfgs/s3dis_pix4point/pix4point.yaml
 ```
 
-## Data preparation
-ImageNet-1k dataset is used to pretrain Pix4point backbone.
-You could download and extract ImageNet train and val images from http://image-net.org/.
-The directory structure is the standard layout for the torchvision [`datasets.ImageFolder`](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder), and the training and validation data is expected to be in the `train/` folder and `val` folder respectively:
-```
-/path/to/imagenet/
-  train/
-    class1/
-      img1.jpeg
-    class2/
-      img2.jpeg
-  val/
-    class1/
-      img3.jpeg
-    class2/
-      img4.jpeg
-```
-## Evaluation
-To evaluate a pre-trained DeiT-base on ImageNet val with a single GPU run:
-```
-todo: command.
-```
-## Pretraining
-To train a pre-trained PIx4point backbone on ImageNet:
-```
-todo: command.
-```
-## Finetuning
-```
-todo: command.
-```
+## Model ZOO
+Coming soon. 
+
+
 ### Citation
 If you are using our code in your work, please kindly cite the following:  
 ```
-@inproceedings{qiu2018deeplidar,
+@inproceedings{qian2022pix4point,
   title={Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding},
   author={Guocheng Qian, Xingdi Zhang, Abdullah Hamdi, Bernard Ghanem},
   publisher = {arXiv},
