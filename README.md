@@ -1,7 +1,14 @@
 # Pix4Point
 Webpage for paper `Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding`
 
-### [arXiv](https://arxiv.org/abs/2208.12259) | [code](https://github.com/guochengqian/PointNeXt)
+**Code is avaliable in https://github.com/guochengqian/PointNeXt, refer to [documentation](https://guochengqian.github.io/PointNeXt/projects/pix4point/) for training and testing details**
+
+**Open an issue in https://github.com/guochengqian/PointNeXt if you have question regards to Pix4Point**. 
+
+---
+**Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding**
+
+### [arXiv](https://arxiv.org/abs/2208.12259) | [code](https://github.com/guochengqian/PointNeXt) | [doc](https://guochengqian.github.io/PointNeXt/projects/pix4point/)
 *by [Guocheng Qian](https://www.gcqian.com/), [Xingdi Zhang](https://cindy-xdzhang.github.io/), [Abdullah Hamdi](https://github.com/ajhamdi), [Bernard Ghanem](https://www.bernardghanem.com/)*
 
 
@@ -22,21 +29,8 @@ Pure Transformer models have achieved impressive success in natural language pro
 ![vis](misc/s3dis_vis.png)
 
 # News
+- :boom: Sep 2022, Code released in https://github.com/guochengqian/PointNeXt
 -  :pushpin:  [Bernard Ghanem](https://www.bernardghanem.com/) is hiring visiting students. Monthly salary is paid with free housing. Contact Guocheng if interested: guocheng.qian@kaust.edu.sa
--  :pushpin:  Code will be released soon in the [PointNeXt repo](https://github.com/guochengqian/pointnext). 
-
-
-## Pretraining Backbone in ImageNet
-Refer to DeiT repo.
-
-
-## Finetuning in S3DIS
-```
-python examples/segmentation/main.py cfgs/s3dis_pix4point/pix4point.yaml
-```
-
-## Model ZOO
-Coming soon. 
 
 
 ### Citation
