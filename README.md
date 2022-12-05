@@ -43,5 +43,5 @@ If you are using our code in your work, please kindly cite the following:
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
-}``` 
+``` 
 
