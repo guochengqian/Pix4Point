@@ -1,5 +1,5 @@
 # Pix4Point
-Webpage for paper `Improving Standard Transformer Models for 3D Point Cloud Understanding with Image Pretraining`
+Webpage for paper `Image Pretrained Standard Transformers for 3D Point Cloud Understanding`
 
 **Code is avaliable in https://github.com/guochengqian/PointNeXt, refer to [documentation](https://guochengqian.github.io/PointNeXt/projects/pix4point/) for training and testing details**
 
