@@ -1,4 +1,7 @@
 # Pix4Point [3DV 2024]
+### [arXiv](https://arxiv.org/abs/2208.12259) | [code](https://github.com/guochengqian/PointNeXt) | [doc](https://guochengqian.github.io/PointNeXt/projects/pix4point/)
+*by [Guocheng Qian](https://www.gcqian.com/), [Xingdi Zhang](https://cindy-xdzhang.github.io/), [Abdullah Hamdi](https://github.com/ajhamdi), [Bernard Ghanem](https://www.bernardghanem.com/)*
+
 Webpage for paper `Pix4Point: Image Pretrained Standard Transformers for 3D Point Cloud Understanding`
 
 **Code is avaliable in https://github.com/guochengqian/PointNeXt, refer to [documentation](https://guochengqian.github.io/PointNeXt/projects/pix4point/) for training and testing details**
@@ -7,10 +10,6 @@ Webpage for paper `Pix4Point: Image Pretrained Standard Transformers for 3D Poin
 
 ---
 **Pix4Point: Image Pretrained Standard Transformers for 3D Point Cloud Understanding**
-
-### [arXiv](https://arxiv.org/abs/2208.12259) | [code](https://github.com/guochengqian/PointNeXt) | [doc](https://guochengqian.github.io/PointNeXt/projects/pix4point/)
-*by [Guocheng Qian](https://www.gcqian.com/), [Xingdi Zhang](https://cindy-xdzhang.github.io/), [Abdullah Hamdi](https://github.com/ajhamdi), [Bernard Ghanem](https://www.bernardghanem.com/)*
-
 
 ![TEASER](misc/teaser.png)
 
