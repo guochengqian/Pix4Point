@@ -35,7 +35,7 @@ While Transformers have achieved impressive success in natural language processi
 If you are using our code in your work, please kindly cite the following:  
 ```
 @inproceedings{qian2022improving,
-  author={Guocheng Qian and Xingdi Zhang and Abdullah Hamdi and Bernard Ghanem},
+  author={Guocheng Qian and Abdullah Hamdi and Xingdi Zhang and Bernard Ghanem},
   booktitle = {3DV},
  title={Improving Standard Transformer Models for 3D Point Cloud Understanding with Image Pretraining},
   year = {2024}
